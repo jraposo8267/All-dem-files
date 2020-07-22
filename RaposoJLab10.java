@@ -29,11 +29,10 @@ public class RaposoJLab10 extends Application {
              Button btn = new Button(), onoff = new Button();
 
             Text text = new Text(120, 80, "Make Java Great Again!");
-            Font arialFont = Font.font("Arial", 16);
+            Font arialFont = Font.font("Arial", 12);
 
             text.setFont(arialFont);
             text.setFill(Color.WHITE);
-            root.getChildren().add(text);
    
              btn.setLayoutX(60); //sets x coordinate of button
              btn.setLayoutY(60);  // sets y coordinate of button
@@ -67,7 +66,8 @@ public class RaposoJLab10 extends Application {
    
             root.getChildren().add(btn);
             root.getChildren().add(onoff);
-            
+            root.getChildren().add(text);
+
             primaryStage.setScene(scene);
    
             primaryStage.show();
